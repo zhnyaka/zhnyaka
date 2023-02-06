@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
 
 body {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Jost', sans-serif;
 }
 
 img {
@@ -81,9 +81,9 @@ img {
 .car-block__car img {
   position: sticky;
   top: 50px;
-  margin-left: 46.8%;
+  margin-left: 47.3%;
   z-index: 5;
-  width: 3.5%;
+  width: 3.1%;
 }
 
 .car-block__item {
