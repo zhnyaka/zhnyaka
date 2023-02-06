@@ -45,7 +45,7 @@ img {
   transition: all 0.5s;
 }
 
-.car-block__item:nth-child(2n-1) .car-block__circle {
+.car-block__item:nth-child(2n) .car-block__circle {
   left: auto;
   right: 0;
 }
@@ -172,7 +172,7 @@ img {
   transition-delay: 0.3s;
 }
 
-.car-block__item:nth-child(2n) .car-block__box::after {
+.car-block__item:nth-child(2n - 1) .car-block__box::after {
   left: 0;
   right: auto;
   background: linear-gradient(90deg, rgba(125, 144, 212, 1), rgba(125, 144, 212, 0.2));
@@ -182,14 +182,14 @@ img {
   width: 100%;
 }
 
-.car-block__item:nth-child(2n) .car-block__box {
+.car-block__item:nth-child(2n - 1) .car-block__box {
   padding: 0 0 24px 170px;
   right: 44%;
   margin-left: 0px;
   transform: translateX(100%);
 }
 
-.car-block__item:nth-child(2n-1) .car-block__box {
+.car-block__item:nth-child(2n) .car-block__box {
   padding: 0 170px 24px 0;
   right: 56%;
   margin-left: 0;
